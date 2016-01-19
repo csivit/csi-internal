@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    p Create a chapter/club profile:
+    form(role='form', method='POST', action='/create')
+        .form-group
+            label Chapter/Club name:
+            input#nm.form-control(type='text', name='clubname', placeholder='eg.Computer Society of India')
+        .form-group
+            label Description:
+            input#desc.form-control(type='text', name='descrpt', placeholder='Keep it short please!')
+        .form-group
+            label Admin Name:
+            input#desc.form-control(type='text', name='admin', placeholder='Your Name!')
+        .form-group
+            label Admin Username:
+            input#desc.form-control(type='text', name='username_admin', placeholder='Username please!')
+        .form-group
+            label Admin password:
+            input#desc.form-control(type='password', name='username_pass', placeholder='Your pass!')
+        .form-group
+            label Core members :
+            input#core.form-control(type='text', name='core', placeholder='eg. 14XXX0123,14XXX0125')
+        .form-group
+            label Board members:
+            input#board.form-control(type='text', name='board', placeholder='eg. 14XXX0123,14XXX0125')
+        button.btn.btn-default(type='submit') Submit

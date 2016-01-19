@@ -1,0 +1,87 @@
+extends layout
+
+block content
+    .container-fluid
+      .row
+        .col-md-12.slots-list
+          h5.text-info.text-right
+            |Time Should be added in form of the lab slot it specifies
+            |like for monday 8 am its L1 so '1' (without quotes) should be entered in the box
+          h4.text-info.text-center.hidden
+            | Following people have free slots at this time
+          
+    
+      .row
+        .col-md-12
+            form(role='form', method='POST', action='/announcements')
+              table.table.table-hover
+                thead
+                  tr
+                    th
+                      | Time Of the Announcement
+                    th
+                      | Announcement Duy Member 1
+                    th
+                      | Announcement Duy Member 2
+                tbody#slots-table
+                  tr#template
+                    td
+                      input.form-control.slot-time(type='text', name='time')
+                    td
+                      select.form-control(name='mem1')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                    td
+                      select.form-control(name='mem2')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                  tr
+                    td
+                      input.form-control.slot-time(type='text', name='time')
+                    td
+                      select.form-control(name='mem1')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                    td
+                      select.form-control(name='mem2')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                  tr
+                    td
+                      input.form-control.slot-time(type='text', name='time')
+                    td
+                      select.form-control(name='mem1')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                    td
+                      select.form-control(name='mem2')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                  tr
+                    td
+                      input.form-control.slot-time(type='text', name='time')
+                    td
+                      select.form-control(name='mem1')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                    td
+                      select.form-control(name='mem2')
+                        option='None'
+                        each val in data
+                          option(value=val.reg_no)=val.name
+                   
+              a.btn.btn-primary.btn-default#add-slot(href='#', type='button') Add Duty
+              input(type='submit') 
+            
+    script(src='/javascripts/getslots.js')
+    
+  
+
+

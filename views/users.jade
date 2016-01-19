@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .container-fluid
+    .row
+      .col-md-4
+        h3.text-info
+        |First Years
+        ol
+          each val in data
+            if val.reg_no.substring(0,2) == "15"
+              li=val.name
+      .col-md-4
+        h3.text-info
+        |Second Years
+        ol
+          each val in data
+            if val.reg_no.substring(0,2) == "14"
+              li=val.name
+      .col-md-4
+        h3.text-info
+        |Third Years
+        ol
+          each val in data
+            if val.reg_no.substring(0,2) == "13"
+              li=val.name        

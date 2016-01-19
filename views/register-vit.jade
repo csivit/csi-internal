@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    form(role='form', method='POST', action='/register-vit')
+        .form-group
+            label(for='regno') Registration No:
+            input#regno.form-control(type='text', name='regno')
+        .form-group
+            label(for='pwd') Date of Birth:
+            input#pwd.form-control(type='password', name='dob')
+        .form-group
+            label(for='pwd2') Parent's Phone No.:
+            input#pwd2.form-control(type='password', name='mobile')
+        button.btn.btn-default(type='submit') Submit
