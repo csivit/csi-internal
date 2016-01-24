@@ -15,14 +15,14 @@
     },
     "console": {
         "@expanded": true,
-        "@height": 221,
+        "@height": 245.1215362548828,
         "@maximized": false,
         "json()": {
             "meta": {
                 "accessList": [
-                    "tab0",
                     "tab5",
-                    "tab6"
+                    "tab6",
+                    "tab0"
                 ]
             },
             "name": "pane1",
@@ -32,53 +32,51 @@
                     "name": "tab0",
                     "path": "",
                     "className": [
-                        "tab0",
-                        "focus"
+                        "tab0"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1452445511696
-                        },
                         "filter": true,
                         "title": "Terminal",
                         "tooltip": "bash - \"ubuntu-1gb-nyc3-01\"",
                         "terminal": {
                             "id": "devel_945",
                             "cwd": "",
-                            "width": 952,
-                            "height": 189
-                        }
+                            "width": 1169,
+                            "height": 189,
+                            "scrollTop": 10759.5560836792
+                        },
+                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
+                        "meta": {
+                            "timestamp": 1452445511696
+                        },
+                        "changed": false
                     },
                     "editorType": "terminal",
-                    "active": true
+                    "active": false
                 },
                 {
                     "type": "tab",
                     "name": "tab5",
                     "path": "",
                     "className": [
-                        "tab5"
+                        "tab5",
+                        "focus"
                     ],
                     "document": {
+                        "changed": false,
+                        "meta": {},
                         "filter": true,
                         "title": "bash - \"ubuntu-1gb-nyc3-01\"",
                         "tooltip": "bash - \"ubuntu-1gb-nyc3-01\"",
                         "terminal": {
                             "id": "devel_903",
                             "cwd": "",
-                            "width": 952,
-                            "height": 120,
-                            "scrollTop": -1
-                        },
-                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
-                        "meta": {
-                            "timestamp": 1452449208292
-                        },
-                        "changed": false
+                            "width": 1169,
+                            "height": 213
+                        }
                     },
                     "editorType": "terminal",
-                    "active": false
+                    "active": true
                 },
                 {
                     "type": "tab",
@@ -88,21 +86,17 @@
                         "tab6"
                     ],
                     "document": {
+                        "changed": false,
+                        "meta": {},
                         "filter": true,
                         "title": "bash - \"ubuntu-1gb-nyc3-01\"",
                         "tooltip": "bash - \"ubuntu-1gb-nyc3-01\"",
                         "terminal": {
                             "id": "devel_255",
                             "cwd": "",
-                            "width": 952,
-                            "height": 120,
-                            "scrollTop": -1
-                        },
-                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
-                        "meta": {
-                            "timestamp": 1452460053683
-                        },
-                        "changed": false
+                            "width": 1169,
+                            "height": 213
+                        }
                     },
                     "editorType": "terminal",
                     "active": false
@@ -130,7 +124,7 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 20,
+            "@document": 14,
             "@form": 5,
             "@immediate": 1,
             "@menu": 5,
@@ -139,10 +133,10 @@
             "@postmessage": 3,
             "@preferences": 1,
             "@preview": 3,
-            "@session": 18,
-            "@tab": 17,
+            "@session": 13,
+            "@tab": 14,
             "@tree": 2,
-            "@undoManager": 20
+            "@undoManager": 14
         }
     },
     "findinfiles": {
@@ -159,8 +153,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab0",
-            "tab16"
+            "tab5"
         ]
     },
     "panels": {
@@ -193,7 +186,7 @@
         }
     },
     "projecttree": {
-        "@scrollpos": -7,
+        "@scrollpos": -10,
         "@showfs": true,
         "expanded": {
             "json()": [
@@ -204,7 +197,11 @@
                 "/config",
                 "/util",
                 "/public/javascripts",
-                "/bin"
+                "/bin",
+                "/views",
+                "/public/stylesheets",
+                "/schemas",
+                "/dump"
             ]
         }
     },
@@ -214,744 +211,31 @@
     "search-history": {
         "replace": {
             "json()": [
+                "value",
+                ".form-group.label-floating",
+                "label.control-label",
                 "clubs"
             ]
         },
         "search": {
             "json()": [
+                "val",
+                "edit",
                 "club"
             ]
         }
     },
     "tabs": {
         "json()": {
-            "focus": "/.gitignore",
+            "focus": "tab5",
             "meta": {
                 "accessList": [
-                    "tab16",
-                    "tab13",
-                    "tab3",
-                    "tab7",
-                    "tab2",
-                    "tab9",
                     "tab10",
-                    "tab14",
-                    "tab15",
-                    "tab17",
-                    "tab19",
-                    "tab20",
-                    "tab1",
-                    "tab4",
-                    "tab8",
-                    "tab11",
-                    "tab12"
+                    "tab4"
                 ]
             },
             "name": "pane0",
-            "nodes": [
-                {
-                    "type": "tab",
-                    "name": "tab3",
-                    "path": "/schemas/user.js",
-                    "className": [
-                        "tab3"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "user.js",
-                        "tooltip": "/schemas/user.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "isBackwards": true
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "2ba82cd0c9ebdcb2eb9d64dc0055b79665b66ed0",
-                        "meta": {
-                            "timestamp": 1452710598072
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab7",
-                    "path": "/views/dashboard.jade",
-                    "className": [
-                        "tab7"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "dashboard.jade",
-                        "tooltip": "/views/dashboard.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 20,
-                                    "column": 17
-                                },
-                                "end": {
-                                    "row": 20,
-                                    "column": 17
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 152,
-                                "mode": "ace/mode/jade"
-                            }
-                        },
-                        "hash": "c65eb3ee7a6dcdf8fa19a52886de25e3e1fe5722",
-                        "meta": {
-                            "timestamp": 1452711056376
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab2",
-                    "path": "/config/init.js",
-                    "className": [
-                        "tab2"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "init.js",
-                        "tooltip": "/config/init.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 12,
-                                    "column": 36
-                                },
-                                "end": {
-                                    "row": 12,
-                                    "column": 36
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 61,
-                                "mode": "ace/mode/javascript"
-                            }
-                        },
-                        "hash": "1925495363743d2263555a181ded3eafe957b12d",
-                        "meta": {
-                            "timestamp": 1452454547344
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab9",
-                    "path": "/util/initslots.js",
-                    "className": [
-                        "tab9"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "initslots.js",
-                        "tooltip": "/util/initslots.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "49959240d10ef190f776bb7c1367deef287118cc",
-                        "meta": {
-                            "timestamp": 1451547453988
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab10",
-                    "path": "/util/slots.js",
-                    "className": [
-                        "tab10"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "slots.js",
-                        "tooltip": "/util/slots.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "3998919a1819002ea6b0c968f694443eb2a72a5a",
-                        "meta": {
-                            "timestamp": 1451310344224
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab13",
-                    "path": "/routes/index.js",
-                    "className": [
-                        "tab13"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1453232702504
-                        },
-                        "filter": true,
-                        "title": "index.js",
-                        "tooltip": "/routes/index.js",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab14",
-                    "path": "/views/login.jade",
-                    "className": [
-                        "tab14"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "login.jade",
-                        "tooltip": "/views/login.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 19,
-                                    "column": 6
-                                },
-                                "end": {
-                                    "row": 20,
-                                    "column": 4
-                                },
-                                "isBackwards": true
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "fdd3287d16d86c1159aeb48c506266ac0c83d62e",
-                        "meta": {
-                            "timestamp": 1452424358040
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab15",
-                    "path": "/views/index.jade",
-                    "className": [
-                        "tab15"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "index.jade",
-                        "tooltip": "/views/index.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 2,
-                                    "column": 13
-                                },
-                                "end": {
-                                    "row": 2,
-                                    "column": 13
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 152,
-                                "mode": "ace/mode/jade"
-                            }
-                        },
-                        "hash": "674ae26469a339f91dc0150692dbd0581e0cb115",
-                        "meta": {
-                            "timestamp": 1451295113392
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab17",
-                    "path": "/views/editdetails.jade",
-                    "className": [
-                        "tab17",
-                        "changed"
-                    ],
-                    "document": {
-                        "changed": true,
-                        "filter": true,
-                        "title": "editdetails.jade",
-                        "tooltip": "/views/editdetails.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 10,
-                                    "column": 67
-                                },
-                                "end": {
-                                    "row": 10,
-                                    "column": 67
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 206,
-                                "mode": "ace/mode/jade"
-                            }
-                        },
-                        "meta": {
-                            "timestamp": 1452711421108
-                        }
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab19",
-                    "path": "/views/register.jade",
-                    "className": [
-                        "tab19"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "register.jade",
-                        "tooltip": "/views/register.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 25.54998016357422,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 19,
-                                    "column": 52
-                                },
-                                "end": {
-                                    "row": 19,
-                                    "column": 52
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 2,
-                                "state": "start",
-                                "mode": "ace/mode/jade"
-                            }
-                        },
-                        "hash": "38ef9d4c33103f025b5140db5e0e9ee5658ad881",
-                        "meta": {
-                            "timestamp": 1451569736364
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab20",
-                    "path": "/views/users.jade",
-                    "className": [
-                        "tab20"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "users.jade",
-                        "tooltip": "/views/users.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 16,
-                                    "column": 13
-                                },
-                                "end": {
-                                    "row": 16,
-                                    "column": 13
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "tabSize": 2,
-                                "useSoftTabs": true,
-                                "guessTabSize": false,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "e31d94edf26868297a4cc5a50a6dc268ebaca2fa",
-                        "meta": {
-                            "timestamp": 1452521641612
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab1",
-                    "path": "/app.js",
-                    "className": [
-                        "tab1"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "app.js",
-                        "tooltip": "/app.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 1106,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 12,
-                                    "column": 41
-                                },
-                                "end": {
-                                    "row": 12,
-                                    "column": 41
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 16,
-                                "state": "start",
-                                "mode": "ace/mode/javascript"
-                            }
-                        },
-                        "hash": "601d0553f2010e2f6800099e07561fa86c62b779",
-                        "meta": {
-                            "timestamp": 1452256687392
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab4",
-                    "path": "/bin/www",
-                    "className": [
-                        "tab4"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "www",
-                        "tooltip": "/bin/www",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 180,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 2,
-                                    "column": 3
-                                },
-                                "end": {
-                                    "row": 2,
-                                    "column": 3
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 10,
-                                "state": "doc-start",
-                                "mode": "ace/mode/javascript"
-                            }
-                        },
-                        "hash": "e003ecb7f14b479b792fd2274abb95bd0dd07052",
-                        "meta": {
-                            "timestamp": 1451297342032
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab8",
-                    "path": "/config/local.js",
-                    "className": [
-                        "tab8"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "local.js",
-                        "tooltip": "/config/local.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "95a0c38610d8326744c7ca9aee2473fb35af4902",
-                        "meta": {
-                            "timestamp": 1452600103748
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab11",
-                    "path": "/views/announcements.jade",
-                    "className": [
-                        "tab11"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "announcements.jade",
-                        "tooltip": "/views/announcements.jade",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 6,
-                                    "column": 12
-                                },
-                                "end": {
-                                    "row": 6,
-                                    "column": 33
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "tabSize": 2,
-                                "useSoftTabs": true,
-                                "guessTabSize": false,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": 0
-                        },
-                        "hash": "ea47e3c156125852c8685e47944493973b8cdee5",
-                        "meta": {
-                            "timestamp": 1452459719336
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab12",
-                    "path": "/routes/event.js",
-                    "className": [
-                        "tab12"
-                    ],
-                    "document": {
-                        "filter": true,
-                        "title": "event.js",
-                        "tooltip": "/routes/event.js",
-                        "ace": {
-                            "folds": [],
-                            "scrolltop": 0,
-                            "scrollleft": 0,
-                            "selection": {
-                                "start": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "end": {
-                                    "row": 0,
-                                    "column": 0
-                                },
-                                "isBackwards": false
-                            },
-                            "options": {
-                                "guessTabSize": true,
-                                "useWrapMode": false,
-                                "wrapToView": true
-                            },
-                            "firstLineState": {
-                                "row": 218,
-                                "mode": "ace/mode/javascript"
-                            }
-                        },
-                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
-                        "meta": {
-                            "timestamp": 1452431568144
-                        },
-                        "changed": false
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab16",
-                    "path": "/.gitignore",
-                    "className": [
-                        "tab16",
-                        "focus"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1453234595892
-                        },
-                        "filter": true,
-                        "title": ".gitignore",
-                        "tooltip": "/.gitignore",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": true
-                }
-            ],
+            "nodes": [],
             "skin": "editor_tab",
             "skinset": "default",
             "type": "pane"

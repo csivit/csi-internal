@@ -1,32 +1,46 @@
 extends layout
 
 block content
-    .container-fluid
+    
       .row
-        .col-md-12.slots-list
-          h5.text-info.text-right
-            |Time Should be added in form of the lab slot it specifies
-            |like for monday 8 am its L1 so '1' (without quotes) should be entered in the box
-          h4.text-info.text-center.hidden
-            | Following people have free slots at this time
+        .col-md-6.slots-list-first
+        .col-md-6.slots-list-second
           
     
       .row
         .col-md-12
             form(role='form', method='POST', action='/announcements')
+            .container-fluid
+              select#slot-day
+                option(value=0)='Monday'
+                option(value=6)='Tuesday'
+                option(value=12)='Wednesday'
+                option(value=18)='Thursday'
+                option(value=24)='Friday'
               table.table.table-hover
                 thead
                   tr
                     th
                       | Time Of the Announcement
                     th
-                      | Announcement Duy Member 1
+                      | Announcement Guy Member 1
                     th
-                      | Announcement Duy Member 2
+                      | Announcement Guy Member 2
                 tbody#slots-table
                   tr#template
                     td
-                      input.form-control.slot-time(type='text', name='time')
+                      select.form-control.slot-time(name='time')
+                        option(value='')='None'
+                        option(value=1)='8 am to 9 am'
+                        option(value=2)='9 am to 10 am'
+                        option(value=3)='10 am to 11 am'
+                        option(value=4)='11 am to 12 pm'
+                        option(value=5)='12 pm to 1 pm'
+                        option(value=31)='2 pm to 3 pm'
+                        option(value=32)='3 pm to 4 pm'
+                        option(value=33)='4 pm to 5 pm'
+                        option(value=34)='5 pm to 6 pm'
+                        option(value=35)='6 pm to 7 pm'
                     td
                       select.form-control(name='mem1')
                         option='None'
@@ -39,7 +53,18 @@ block content
                           option(value=val.reg_no)=val.name
                   tr
                     td
-                      input.form-control.slot-time(type='text', name='time')
+                      select.form-control.slot-time(name='time')
+                        option(value='')='None'
+                        option(value=1)='8 am to 9 am'
+                        option(value=2)='9 am to 10 am'
+                        option(value=3)='10 am to 11 am'
+                        option(value=4)='11 am to 12 pm'
+                        option(value=5)='12 pm to 1 pm'
+                        option(value=31)='2 pm to 3 pm'
+                        option(value=32)='3 pm to 4 pm'
+                        option(value=33)='4 pm to 5 pm'
+                        option(value=34)='5 pm to 6 pm'
+                        option(value=35)='6 pm to 7 pm'
                     td
                       select.form-control(name='mem1')
                         option='None'
@@ -52,7 +77,18 @@ block content
                           option(value=val.reg_no)=val.name
                   tr
                     td
-                      input.form-control.slot-time(type='text', name='time')
+                      select.form-control.slot-time(name='time')
+                        option(value='')='None'
+                        option(value=1)='8 am to 9 am'
+                        option(value=2)='9 am to 10 am'
+                        option(value=3)='10 am to 11 am'
+                        option(value=4)='11 am to 12 pm'
+                        option(value=5)='12 pm to 1 pm'
+                        option(value=31)='2 pm to 3 pm'
+                        option(value=32)='3 pm to 4 pm'
+                        option(value=33)='4 pm to 5 pm'
+                        option(value=34)='5 pm to 6 pm'
+                        option(value=35)='6 pm to 7 pm'
                     td
                       select.form-control(name='mem1')
                         option='None'
@@ -65,7 +101,18 @@ block content
                           option(value=val.reg_no)=val.name
                   tr
                     td
-                      input.form-control.slot-time(type='text', name='time')
+                      select.form-control.slot-time(name='time')
+                        option(value='')='None'
+                        option(value=1)='8 am to 9 am'
+                        option(value=2)='9 am to 10 am'
+                        option(value=3)='10 am to 11 am'
+                        option(value=4)='11 am to 12 pm'
+                        option(value=5)='12 pm to 1 pm'
+                        option(value=31)='2 pm to 3 pm'
+                        option(value=32)='3 pm to 4 pm'
+                        option(value=33)='4 pm to 5 pm'
+                        option(value=34)='5 pm to 6 pm'
+                        option(value=35)='6 pm to 7 pm'
                     td
                       select.form-control(name='mem1')
                         option='None'

@@ -4,19 +4,20 @@ block content
   .container-fluid
       .page-header
         h2 Hi #{data.name}
-    .row
-      .col-md-4
-        a.btn.btn-info.center-block(href='/register-vit', role='button') Update Slots
-      .col-md-4
-        a.btn.btn-info.center-block(href='/edit', role='button') Edit Details
-      .col-md-4
-        a.btn.btn-info.disabled.center-block(href='#', role='button') Peer Review
-    if data.reg_no.substring(0,2) == 14
-      h3.text-info.text-center Second Year Panel  
-      row
+    .well
+      .row
         .col-md-4
-          a.btn.btn-info.center-block(href='/announcements', role='button') Allote Announcement Duties
+          a.btn.btn-flat.center-block(href='/register-vit', role='button') Update Slots
         .col-md-4
-          a.btn.btn-info.center-block.disabled(href='#', role='button') Send Messages
+          a.btn.btn-flat.center-block(href='/edit', role='button') Edit Details
         .col-md-4
-          a.btn.btn-info.center-block.disabled(href='#', role='button') Allote Event Duties
+          a.btn.btn-flat.disabled.center-block(href='#', role='button') Peer Review
+      if data.reg_no.substring(0,2) == 14
+        h3.text-primary.text-center Second Year Panel  
+        .row
+          .col-md-4
+            a.btn.btn-flat.center-block(href='/announcements', role='button') Allote Announcement Duties
+          .col-md-4
+            a.btn.btn-flat.center-block.disabled(href='#', role='button') Send Messages
+          .col-md-4
+            a.btn.btn-flat.center-block.disabled(href='#', role='button') Allote Event Duties

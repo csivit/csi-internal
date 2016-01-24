@@ -2,19 +2,21 @@ extends layout
 
 block content
     form(role='form', method='POST', action='/register')
-        .form-group
-            label(for='regno') Registration No:
+        legend Register to get Started
+        .form-group.label-floating
+            label.control-label(for='regno') Registration No:
             input#regno.form-control(type='text', name='username')
-        .form-group
-            label(for='name') Name:
+        .form-group.label-floating
+            label.control-label(for='name') Name:
             input#name.form-control(type='text', name='name')
-        .form-group
-            label(for='email') Email:
+        .form-group.label-floating
+            label.control-label(for='email') Email:
             input#email.form-control(type='email', name='email')
-        .form-group
-            label(for='mobile') Phone No.:
+        .form-group.label-floating
+            label.control-label(for='mobile') Phone No.:
             input#mobile.form-control(type='number', name='mobile')
-        .form-group
-            label(for='password') Password:
+        .form-group.label-floating
+            label.control-label(for='password') Password:
             input#password.form-control(type='password', name='password')
-        button.btn.btn-default(type='submit') Submit
+        center
+            button.btn.btn-primary(type='submit') Submit

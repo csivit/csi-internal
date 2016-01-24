@@ -5,16 +5,16 @@ block content
           h4.text-info.text-center.hidden
     p Create an admin profile:
     form(role='form', method='POST', action='/admin')
-        .form-group
+        .form-group.label-floating
             label Name of Admin:
             input#adminname.form-control(type='text', name='admin')
-        .form-group
+        .form-group.label-floating
             label Registration number:
             input#reg.form-control(type='text', name='regno')
-        .form-group
+        .form-group.label-floating
             label Username:
             input#aduser.form-control(type='text', name='username_admin')
-        .form-group
+        .form-group.label-floating
             label Password:
             input#adpass.form-control(type='password', name='username_pass')
         button.btn.btn-default(type='submit') Submit

@@ -2,10 +2,12 @@ extends layout
 
 block content
     form(role='form', method='POST', action='/login')
+        legend Login with your Details
         .form-group
             label(for='regno') Registration No:
             input#regno.form-control(type='text', name='username')
         .form-group
             label(for='pwd') Password:
             input#pwd.form-control(type='password', name='password')
-        button.btn.btn-default(type='submit') Submit
+        center    
+            button.btn.btn-primary(type='submit') Submit

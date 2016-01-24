@@ -1,5 +1,18 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .row
+    .col-sm-12
+      .jumbotron.text-center
+        h1 CSI Internal App 
+  .row
+    .col-sm-6.col-sm-offset-3
+      .well
+        center
+          h3 Login or Register to start
+        footer
+          a.btn.btn-flat(href="/login") Login 
+          a.btn.btn-flat.pull-right(href="/register") Register
+          
+  center
+    a.btn.btn-primary(href="/users") See All Users 

@@ -143,6 +143,10 @@ module.exports = function(passport) {
       res.redirect('/create');
   });
   });*/
+  
+  router.get('/', function(req, res, next) {
+    res.render('index');  
+  });
 
   router.get('/login', function(req, res, next) {
     res.render('userlogin',{message : req.flash('message')});  
@@ -183,7 +187,7 @@ module.exports = function(passport) {
 
  
 router.post('/edit',function(req,res,next){
-  User.findOne({reg_no:req.reg_no},function(err,users_edit){
+  User.findOne({reg_no:req.users.reg_no},function(err,users_edit){
     if (err)
       return err;
     var update=users_edit({
@@ -207,10 +211,11 @@ router.post('/edit',function(req,res,next){
   })
 
 router.get('/edit',isAuthenticated, function(req, res, next) {
-      User.findOne({reg_no : req.session.info.regno}, function(err,c2) {
+      User.findOne({reg_no : req.user.reg_no}, function(err,c2) {
         if (err) {
             res.send(err);
           }
+         // console.log(c2);
         res.render('editdetails', {data : c2}); 
       });
   });
